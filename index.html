@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-5">Mi galería de imágenes</h1>
+        <div class="row justify-content-center">
+            <!-- Imagenes -->
+            <div class="col-xl-3 col-md-4">
+                <div class="card">
+                    <picture data-bs-toggle="modal" data-bs-target="#imageModal1">
+                        <source srcset="
+                            src/output/bernabeu-small-1x..jpg 320w,
+                            src/output/bernabeu-small-2x..jpg 640w,
+                            src/output/bernabeu-medium-1x..jpg 640w,
+                            src/output/bernabeu-medium-2x..jpg 1280w,
+                            src/output/bernabeu-large-1x..jpg 1280w,
+                            src/output/bernabeu-large-2x..jpg 1920w,
+                            src/output/bernabeu-xlarge-2x..jpg 3840w" 
+                            sizes="(max-width: 640px) 100vw,
+                                   (max-width: 1280px) 50vw,
+                                   33vw"
+                        />
+                        <img src="src/output/bernabeu-small-1x..jpg" 
+                             class="card-img-top img-thumbnail" 
+                             alt="Santiago Bernabeu">
+                    </picture>                
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4">
+                <div class="card">
+                    <picture data-bs-toggle="modal" data-bs-target="#imageModal2">
+                        <source srcset="
+                            src/output/baloncesto-small-1x..jpg 320w,
+                            src/output/baloncesto-small-2x..jpg 640w,
+                            src/output/baloncesto-medium-1x..jpg 640w,
+                            src/output/baloncesto-medium-2x..jpg 1280w,
+                            src/output/baloncesto-large-1x..jpg 1280w,
+                            src/output/baloncesto-large-2x..jpg 1920w,
+                            src/output/baloncesto-xlarge-2x..jpg 3840w" 
+                            sizes="(max-width: 640px) 100vw,
+                                   (max-width: 1280px) 50vw,
+                                   33vw"
+                        />
+                        <img src="src/output/baloncesto-small-1x..jpg" 
+                             class="card-img-top img-thumbnail" 
+                             alt="Baloncesto">
+                    </picture>                
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4">
+                <div class="card">
+                    <picture data-bs-toggle="modal" data-bs-target="#imageModal3">
+                        <source srcset="
+                            src/output/cr7-small-1x..png 320w,
+                            src/output/cr7-small-2x..png 640w,
+                            src/output/cr7-medium-1x..png 640w,
+                            src/output/cr7-medium-2x..png 1280w,
+                            src/output/cr7-large-1x..png 1280w,
+                            src/output/cr7-large-2x..png 1920w,
+                            src/output/cr7-xlarge-2x..png 3840w" 
+                            sizes="(max-width: 640px) 100vw,
+                                   (max-width: 1280px) 50vw,
+                                   33vw"
+                        />
+                        <img src="src/output/cr7-small-1x..png" 
+                             class="card-img-top img-thumbnail" 
+                             alt="Cristiano Ronaldo">
+                    </picture>                
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4">
+                <div class="card">
+                    <picture data-bs-toggle="modal" data-bs-target="#imageModal4">
+                        <source srcset="
+                            src/output/ferrari-small-1x..jpg 320w,
+                            src/output/ferrari-small-2x..jpg 640w,
+                            src/output/ferrari-medium-1x..jpg 640w,
+                            src/output/ferrari-medium-2x..jpg 1280w,
+                            src/output/ferrari-large-1x..jpg 1280w,
+                            src/output/ferrari-large-2x..jpg 1920w,
+                            src/output/ferrari-xlarge-2x..jpg 3840w" 
+                            sizes="(max-width: 640px) 100vw,
+                                   (max-width: 1280px) 50vw,
+                                   33vw"
+                        />
+                        <img src="src/output/Ferrari-small-1x..jpg" 
+                             class="card-img-top img-thumbnail" 
+                             alt="Ferrari">
+                    </picture>                
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4">
+                <div class="card">
+                    <picture data-bs-toggle="modal" data-bs-target="#imageModal5">
+                        <source srcset="
+                            src/output/padel-small-1x..jpg 320w,
+                            src/output/padel-small-2x..jpg 640w,
+                            src/output/padel-medium-1x..jpg 640w,
+                            src/output/padel-medium-2x..jpg 1280w,
+                            src/output/padel-large-1x..jpg 1280w,
+                            src/output/padel-large-2x..jpg 1920w,
+                            src/output/padel-xlarge-2x..jpg 3840w" 
+                            sizes="(max-width: 640px) 100vw,
+                                   (max-width: 1280px) 50vw,
+                                   33vw"
+                        />
+                        <img src="src/output/padel-small-1x..jpg" 
+                             class="card-img-top img-thumbnail" 
+                             alt="Padel">
+                    </picture>                
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4">
+                <div class="card">
+                    <picture data-bs-toggle="modal" data-bs-target="#imageModal6">
+                        <source srcset="
+                            src/output/tenis-small-1x..jpg 320w,
+                            src/output/tenis-small-2x..jpg 640w,
+                            src/output/tenis-medium-1x..jpg 640w,
+                            src/output/tenis-medium-2x..jpg 1280w,
+                            src/output/tenis-large-1x..jpg 1280w,
+                            src/output/tenis-large-2x..jpg 1920w,
+                            src/output/tenis-xlarge-2x..jpg 3840w" 
+                            sizes="(max-width: 640px) 100vw,
+                                   (max-width: 1280px) 50vw,
+                                   33vw"
+                        />
+                        <img src="src/output/tenis-small-1x..jpg" 
+                             class="card-img-top img-thumbnail" 
+                             alt="Tenis">
+                    </picture>                
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4">
+                <div class="card">
+                    <picture data-bs-toggle="modal" data-bs-target="#imageModal7">
+                        <source srcset="
+                            src/output/balon-small-1x..jpg 320w,
+                            src/output/balon-small-2x..jpg 640w,
+                            src/output/balon-medium-1x..jpg 640w,
+                            src/output/balon-medium-2x..jpg 1280w,
+                            src/output/balon-large-1x..jpg 1280w,
+                            src/output/balon-large-2x..jpg 1920w,
+                            src/output/balon-xlarge-2x..jpg 3840w" 
+                            sizes="(max-width: 640px) 100vw,
+                                   (max-width: 1280px) 50vw,
+                                   33vw"
+                        />
+                        <img src="src/output/balon-small-1x..jpg" 
+                             class="card-img-top img-thumbnail" 
+                             alt="Balon fútbol">
+                    </picture>                
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4">
+                <div class="card">
+                    <picture data-bs-toggle="modal" data-bs-target="#imageModal8">
+                        <source srcset="
+                            src/output/escudo-small-1x..jpg 320w,
+                            src/output/escudo-small-2x..jpg 640w,
+                            src/output/escudo-medium-1x..jpg 640w,
+                            src/output/escudo-medium-2x..jpg 1280w,
+                            src/output/escudo-large-1x..jpg 1280w,
+                            src/output/escudo-large-2x..jpg 1920w,
+                            src/output/escudo-xlarge-2x..jpg 3840w" 
+                            sizes="(max-width: 640px) 100vw,
+                                   (max-width: 1280px) 50vw,
+                                   33vw"
+                        />
+                        <img src="src/output/escudo-small-1x..jpg" 
+                             class="card-img-top img-thumbnail" 
+                             alt="Escudo fútbol">
+                    </picture>                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modales -->
+    <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal1Label">Santiago Bernabeu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="src/input/bernabeu.jpg" class="img-fluid" alt="Santiago Bernabeu">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal2Label">Baloncesto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="src/input/baloncesto.jpg" class="img-fluid" alt="Baloncesto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal3" tabindex="-1" aria-labelledby="imageModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal3Label">Cristiano Ronaldo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="src/input/cr7.png" class="img-fluid" alt="Cristiano Ronaldo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal4" tabindex="-1" aria-labelledby="imageModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal4Label">Ferrari</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="src/input/ferrari.jpg" class="img-fluid" alt="Ferrari">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal5" tabindex="-1" aria-labelledby="imageModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal5Label">Padel</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="src/input/padel.jpg" class="img-fluid" alt="Padel">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal6" tabindex="-1" aria-labelledby="imageModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal6Label">Tenis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="src/input/tenis.jpg" class="img-fluid" alt="Tenis">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal7" tabindex="-1" aria-labelledby="imageModal7Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal7Label">Balon fútbol</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="src/input/balon.jpg" class="img-fluid" alt="Balon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal8" tabindex="-1" aria-labelledby="imageModal8Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal8Label">Escudo fútbol</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="src/input/escudo.jpg" class="img-fluid" alt="Escudo fútbol">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
